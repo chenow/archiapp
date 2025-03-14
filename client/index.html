@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application de Messagerie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <button id="darkModButton">Changer de Style</button>
+    <header>
+        <h1>Messages</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Liste des Messages</h2>
+            <ul id="messages">
+            </ul>
+        </section>
+        <section>
+            <h2>Poster un Nouveau Message</h2>
+            <textarea id="message" rows="4"></textarea>
+            <button id="postMessage">Envoyer</button>
+        </section>
+        <input id="backend-url" value="https://archiapp-p5sb.onrender.com">
+        <button id="refresh">Rafraichir</button>
+    </main>
+</body>
+
+</html>
